@@ -1,0 +1,34 @@
+<wpml-config>
+    <admin-texts>
+        <key name="single_names">
+            <key name="*"/>
+        </key>
+        <key name="archive_names">
+            <key name="*"/>
+        </key>
+        <key name="archive_multiple_settings">
+            <key name="seo_title" />
+            <key name="breadcrumbs_title" />
+        </key>
+        <key name="product_attribute">
+            <key name="*"/>
+        </key>
+        <key name="product_attribute_label">
+            <key name="*"/>
+        </key>
+        <key name="product_attribute_unit">
+            <key name="*"/>
+        </key>
+        <key name="product_shipping_cost">
+            <key name="*"/>
+        </key>
+        <key name="product_shipping_label">
+            <key name="*"/>
+        </key>
+        <key name="product_currency_settings">
+            <key name="custom_symbol"/>
+        </key>
+    </admin-texts>    
+</wpml-config>
+
+

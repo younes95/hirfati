@@ -1,0 +1,203 @@
+.azera-shop-nav-tabs {
+	margin-bottom: 0;
+}
+
+.azera-shop-nav-tabs:after {
+	display: table;
+	clear: both;
+	content: " ";
+}
+
+.azera-shop-nav-tabs > li {
+	display: block;
+	float: left;
+	margin-bottom: -1px;
+}
+
+.azera-shop-nav-tabs > li > a {
+	display: block;
+	padding: 10px 15px;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	text-decoration: none;
+}
+
+.azera-shop-nav-tabs > li.active > a,
+.azera-shop-nav-tabs > li.active > a:focus,
+.azera-shop-nav-tabs > li.active > a:hover {
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	color: #555;
+	background-color: #fff;
+}
+
+.azera-shop-nav-tabs > li.azera-shop-w-red-tab > a {
+	color: red;
+	font-weight: bold;
+}
+
+.azera-shop-tab-content {
+	float: left;
+	width: 960px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.azera-shop-tab-content > .tab-pane {
+	display: none;
+}
+
+.azera-shop-tab-content > .active {
+	display: block;
+}
+
+.azera-shop-tab-pane {
+	padding: 30px;
+}
+
+.azera-shop-tab-pane {
+	display: none;
+}
+
+.azera-shop-tab-pane.active {
+	display: block;
+}
+
+#azera-shop-theme-version {
+	padding: 10px;
+	background: #ccc;
+	font-size: 50%;
+}
+
+.azera-shop-w-activated {
+	cursor: not-allowed !important;
+}
+
+.azera-shop-tab-pane-half {
+	float: left;
+	width: 45%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+}
+
+.azera-shop-tab-content img {
+	max-width: 100%;
+}
+
+.azera-shop-tab-pane-first-half {
+	border-left: none;
+}
+
+.azera-shop-tab-pane-center {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.azera-shop-welcome-title {
+	font-size: 32px;
+}
+
+.azera-shop-clear {
+	clear: both;
+}
+
+.azera-shop-actions-count {
+	display: inline-block;
+	z-index: 26;
+	margin: 1px 0 0 2px;
+	padding: 0 6px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #d54e21;
+	font-size: 9px;
+	font-weight: 600;
+	line-height: 17px;
+	vertical-align: top;
+}
+
+.azera-shop-action-required-box {
+	position: relative;
+}
+
+.azera-shop-dismiss-required-action {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #d24a4a;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.azera-shop-dismiss-required-action:hover {
+	background-color: #cc8c8c;
+}
+
+#github.azera-shop-tab-pane {
+	text-align: center;
+}
+
+#github.azera-shop-tab-pane .azera-shop-tab-pane-half {
+	min-height: 160px;
+}
+
+#github.azera-shop-tab-pane .translate-button,
+#github .github-button {
+	margin-top: 20px;
+}
+
+#github.azera-shop-tab-pane .dashicons {
+	width: auto;
+	color: #0073aa;
+	font-size: 12px;
+}
+
+#github.azera-shop-tab-pane h4 {
+	margin: 10px;
+	;
+}
+
+#github.azera-shop-tab-pane p.review-link {
+	margin: 0;
+}
+
+#github.azera-shop-tab-pane .azera-shop-tab-pane-half hr {
+	display: none;
+}
+
+/*Breakpoints*/
+
+@media (max-width: 1200px) {
+	.azera-shop-tab-content {
+		width: 98%;
+	}
+
+	.azera-shop-tab-pane-half {
+		width: 43%;
+	}
+}
+
+@media (max-width: 782px) {
+	#github.azera-shop-tab-pane .azera-shop-tab-pane-half hr {
+		display: block;
+	}
+
+	.azera-shop-tab-pane-half {
+		float: none;
+		width: auto;
+		border-left: none;
+	}
+
+	.azera-shop-welcome-title,
+	.azera-shop-tab-content h1 {
+		line-height: 30px;
+	}
+}
